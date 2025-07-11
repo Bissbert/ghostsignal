@@ -1,0 +1,38 @@
+# Git ignore file for autotools-based C project
+
+# Editor backup and swap files
+*~
+*.swp
+*.in~
+
+# macOS system files
+.DS_Store
+Thumbs.db
+
+# IDE directories
+.vscode/
+.idea/
+
+# Autotools cache and scripts
+autom4te.cache/
+aclocal.m4
+compile
+depcomp
+install-sh
+missing
+stamp-h1
+
+# Configure script and logs
+configure
+configure~
+config.log
+config.status
+
+# Generated makefiles
+Makefile
+
+# Compiled object files
+*.o
+
+# Built executable
+src/ghostsignal
